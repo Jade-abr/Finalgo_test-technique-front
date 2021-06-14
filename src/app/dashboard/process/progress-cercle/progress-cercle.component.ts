@@ -16,6 +16,7 @@ export class ProgressCercleComponent implements OnInit {
   @Input() progressbarClass: string;
   @Input() starColor: string;
   @Input() maincercleColor: string;
+  @Input() textColor: string;
   constructor() { }
 
   ngOnInit(): void {

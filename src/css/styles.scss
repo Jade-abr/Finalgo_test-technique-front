@@ -5,7 +5,15 @@
 body {
   font-family: var(--font);
 }
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
 h3 {
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 16px;
 }
 .component_add-margin {

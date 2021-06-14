@@ -35,6 +35,10 @@
   color: var(--white);
 }
 
+.text-disabled {
+  opacity: 0.5;
+}
+
 .progress-cercle {
   position: absolute;
   top: -25%;

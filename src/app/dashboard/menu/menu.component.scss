@@ -42,6 +42,9 @@
   font-weight: 600;
 }
 
+.nav-items_not-selected {
+  color: var(--dark-grey);
+}
 .cercle_selected {
   background-color: var(--primary-color);
 }
