@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'normalize.css';
+@import "variables-styles";
+
+body {
+  font-family: var(--font);
+}
+h3 {
+  margin-bottom: 16px;
+}
+.component_add-margin {
+  padding: 40px;
+}
+
+.section-divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--dark-grey);
+  margin: 40px 0;
+}
+
+.text_dark-grey-color {
+  color: var(--dark-grey);
+}
+

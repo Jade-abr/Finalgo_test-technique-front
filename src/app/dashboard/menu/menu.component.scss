@@ -1,0 +1,51 @@
+.dashboard-menu {
+  background-color: var(--white);
+  height: 100%;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.big-cercle {
+  width: 32px;
+  height: 32px;
+  border-radius: 24px;
+  margin-right: 8px;
+}
+
+.small-cercle {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  margin-right: 8px;
+}
+
+.menu-items_display {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.menu-items_display div, .menu-items_display p{
+  flex-shrink: 0;
+}
+
+.nav-items_display {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1000px) {
+  .menu-items_display p{
+    display: none;
+  }
+}
+
+.nav-items_selected {
+  font-weight: 600;
+}
+
+.cercle_selected {
+  background-color: var(--primary-color);
+}
+
+.cercle_not_selected {
+  background-color: var(--other-color);
+}

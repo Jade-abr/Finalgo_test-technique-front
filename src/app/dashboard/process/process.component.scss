@@ -1,0 +1,18 @@
+.dashboard-process {
+  overflow: scroll;
+  height: 100%;
+}
+
+.process-container {
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.container-cercles {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0 40px 0;
+}
+

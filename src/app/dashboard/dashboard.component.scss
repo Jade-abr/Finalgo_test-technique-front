@@ -1,0 +1,32 @@
+.dashboard {
+  height: 100vh;
+  overflow: scroll;
+  background-color: var(--screen-color);
+}
+
+.dashboard-section_display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-first-section {
+  max-width: 20%; // pixel 216 sur 1440
+}
+
+.dashboard-second-section {
+  width: 55%; // 864 pixel sur 1440
+}
+
+.dashboard-third-section {
+  max-width: 25%; // 360 pixel sur 1440
+}
+
+@media (max-width: 1000px) {
+  .dashboard-second-section {
+    width: 80%; // 864 pixel sur 1440
+  }
+
+  .dashboard-third-section{
+    display: none;
+  }
+}
